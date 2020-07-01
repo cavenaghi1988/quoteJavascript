@@ -1,0 +1,9 @@
+@media screen and (max-width:1000px) {
+  .quote-container {
+    margin: auto 10px;
+
+    &__quote-text {
+      font-size: 2.3rem;
+    }
+  }
+}

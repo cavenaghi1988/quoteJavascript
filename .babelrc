@@ -1,0 +1,9 @@
+{
+  "presets": [
+    ["@babel/env", {
+      "debug": true,
+      "spec": true,
+      "loose": false
+    }]
+  ]
+}

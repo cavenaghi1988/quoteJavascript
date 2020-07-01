@@ -1,0 +1,63 @@
+.quote-container {
+  width: auto;
+  max-width: 900px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: rgba($color: #fafafa, $alpha: 0.4);
+  box-shadow: 0 10px 10px 10px rgba($color: #000000, $alpha: 0.2);
+
+  &__quote-text {
+    font-size: 2.75rem;
+  }
+
+  &__quote-author {
+    margin-top: 15px;
+    font-size: 2rem;
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  &__button-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__button-twitter {
+
+    &:hover {
+      color: #38a1f3;
+    }
+  }
+
+}
+
+button {
+  cursor: pointer;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 10px;
+  color: #ffff;
+  background-color: rgba($color: #333, $alpha: 1);
+  outline: none;
+  padding: 0.5rem 1.8rem;
+  box-shadow: 0 0.3rem rgba($color:#3333, $alpha: 0.65);
+
+  &:active {
+    transform: translate(0, 0.1rem);
+    box-shadow: none
+  }
+}
+
+.long-quote {
+  font-size: 2rem;
+}
+
+.fa-quote-left {
+  font-size: 4rem;
+}
+
+.fa-twitter {
+  font-size: 1.5rem;
+}
